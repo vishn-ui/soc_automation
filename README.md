@@ -1,5 +1,5 @@
-# soc_automationtiv
-## ScreenshotsAc
+# soc_automationtin
+## Screenshots
 
 ### 1. Wazuh Manager Running
 ![Wazuh Manager](wazuh_manager_running.png)
