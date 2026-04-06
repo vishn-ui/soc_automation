@@ -1,32 +1,42 @@
-# soc_automation
-## Screenshots
+# soc_automationtiv
+## ScreenshotsAc
 
 ### 1. Wazuh Manager Running
-![Wazuh Manager](screenshots/01_wazuh_manager_running.png)
+![Wazuh Manager](wazuh_manager_running.png)
 
-### 2. Live Alerts from Windows Agent
-![Wazuh Alerts](screenshots/02_wazuh_alerts_live.png)
+### 2. Wazuh Agent status
+![Wazuh agent](wazhu_agent_status.png)
 
-### 3. Nmap Attack Simulation
-![Nmap Attack](screenshots/03_nmap_attack.png)
+### 3. Catalyst Running
+![Catalyst Server](catalyst_backend_server.png)
+![Catalyst Server](catalyst_ui.png)
 
 ### 4. Custom Integration Script
-![Integration Script](screenshots/04_integration_script.png)
+![Integration Script](ossec_integration.png)
+![Integration Script](custom_catalyst.png)
 
-### 5. n8n Workflow — 68 Successful Executions
-![n8n Executions](screenshots/05_n8n_workflow_executions.png)
+### 5. n8n Running in Docker Desktop
+![Docker n8n](n8n_docker_server.png)
 
-### 6. Catalyst — 57 Auto-Created Alert Tickets
-![Catalyst Alerts](screenshots/06_catalyst_alerts.png)
+### 6. Nmap Attack Simulation
+![Nmap Attack](nmap_attack.png)
+![Nmap Attack](nmap_attacks_json.png)
 
-### 7. Exporting 302 Alerts to Excel
-![Excel Export](screenshots/07_export_excel.png)
+### 7. n8n Workflow 
+![n8n Executions](n8n_workflow.png)
 
-### 8. Excel File Download via HTTP
-![File Download](screenshots/08_file_download.png)
 
-### 9. HTTP Server Serving Files
-![HTTP Server](screenshots/09_http_server.png)
+### 8. Catalyst — Auto-Created Alert Tickets
+![Catalyst Alerts](catalyst_alerts.png)
 
-### 10. n8n Running in Docker Desktop
-![Docker n8n](screenshots/10_docker_n8n.png)
+### 9. Exporting Alerts to Excel
+![Excel Export](json_log_to_excel.png)
+![python script](pythonscript_json_excel.png)
+
+### 10. HTTP Server Serving Files
+![HTTP Server](kali_to_win_server.png)
+![Diectory listing](Screenshot 2026-04-06 142046.png)
+
+### 11. Excel files
+![log files](excel_file1.png)
+![log files](excel_file2.png)
