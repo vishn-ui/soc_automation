@@ -1,5 +1,26 @@
 # soc_automationtin
 ![work flow](image.png)
+
+- **Automated SOC Pipeline:** Built using Wazuh to detect real-time threats and trigger workflows automatically.
+- **Workflow Automation:** n8n processes alerts and forwards them to Catalyst via REST API.
+- **Incident Management:** Automatically creates and manages tickets for detected attacks.
+
+##  Tech Stack
+
+- **Kali Linux (VMware Workstation)** — Wazuh Manager + Catalyst
+- **Windows 11 Host** — Wazuh Agent + n8n (Docker)
+- **Python 3** — Integration script
+- **Bun + Vue.js** — Frontend
+- **Go** — Backend
+
+## Workflow
+
+1. Wazuh detects a security event on the Windows agent  
+2. Custom Python script sends alert data (JSON)  
+3. n8n receives data via webhook  
+4. n8n transforms and sends data to Catalyst API  
+5. Catalyst creates an incident ticket  
+6. Analyst reviews and manages the alert  
 ## Screenshots
 
 ### 1. Wazuh Manager Running
