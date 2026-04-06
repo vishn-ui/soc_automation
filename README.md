@@ -1,4 +1,5 @@
 # soc_automationtin
+![work flow](image.png)
 ## Screenshots
 
 ### 1. Wazuh Manager Running
