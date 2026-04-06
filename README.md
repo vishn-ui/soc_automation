@@ -35,7 +35,7 @@
 
 ### 10. HTTP Server Serving Files
 ![HTTP Server](kali_to_win_server.png)
-![Diectory listing](Screenshot 2026-04-06 142046.png)
+![Diectory listing](file_server.png)
 
 ### 11. Excel files
 ![log files](excel_file1.png)
