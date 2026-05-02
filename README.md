@@ -62,3 +62,19 @@
 ### 11. Excel files
 ![log files](excel_file1.png)
 ![log files](excel_file2.png)
+
+
+### 12. OpenClaw setup and running to replace n8n for automation
+![log files](Screenshot-0.png)
+![log files](Screenshot-0.1.png)
+
+### 13. OpenClaw Dashboard
+![log files](Screenshot-0.2.png)
+![log files](Screenshot-0.3.png)
+![log files](Screenshot-0.4.png)
+
+### 14. Communicating with a Telegram bot
+![log files](Screenshot-0.5.png)
+![log files](Screenshot-0.6.png)
+
+
