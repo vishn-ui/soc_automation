@@ -1,9 +1,14 @@
 # soc_automationtin
 ![work flow](image.png)
 
+## Move to point 14 to view MCP server details
+
 - **Automated SOC Pipeline:** Built using Wazuh to detect real-time threats and trigger workflows automatically.
-- **Workflow Automation:** n8n processes alerts and forwards them to Catalyst via REST API.
+- **Workflow Automation 1:** n8n processes alerts and forwards them to Catalyst via REST API.
+- **Workflow Automation 2:** openclaw processes alerts, summarizes, and forwards them to Catalyst.
 - **Incident Management:** Automatically creates and manages tickets for detected attacks.
+
+## -----------Move to point 14 to view MCP server details--------------
 
 ##  Tech Stack
 
@@ -20,7 +25,8 @@
 3. n8n receives data via webhook  
 4. n8n transforms and sends data to Catalyst API  
 5. Catalyst creates an incident ticket  
-6. Analyst reviews and manages the alert  
+6. Analyst reviews and manages the alert
+7. In place of 3 and 4, we created automation via OpenClaw, which reads and analyzes the logs and summarizes via MCP server and REST API 
 ## Screenshots
 
 ### 1. Wazuh Manager Running
@@ -73,7 +79,12 @@
 ![log files](Screenshot-0.3.png)
 ![log files](Screenshot-0.4.png)
 
-### 14. Communicating with a Telegram bot
+### 14. MCP server
+MCP server connects with Wazuh manager and indexer
+- Refer to [wazuh-mcp-server.py](wazuh-mcp-server.py) for MCP server details.
+![log files](openclaw_MCP_List.png)
+
+### 15. Communicating with a Telegram bot
 ![log files](Screenshot-0.5.png)
 ![log files](Screenshot-0.6.png)
 
